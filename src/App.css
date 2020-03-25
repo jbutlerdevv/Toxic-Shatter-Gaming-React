@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+body {
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*Text for main card header*/
+.tsg-title, .card-title, .contact-title  {
+  font-family: 'Nosifer';
+  color: #72C000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*Text for navbar font*/
+.sticky-top, .footer-links{
+  font-family: 'Barrio', cursive;
+}
+.footer {
+  /* border-top: solid 1px green; */
+  margin-top: 3em;
+  padding-top: 3em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar {
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
+/*OVERRIDE BOOTSTRAP COLORS*/
+.btn-outline-success:hover {
+  background-color: #72C000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-outline-success {
+  color: #72C000;
+  border-color: #72C000;
 }
+/*END OVERRIDE BOOTSTRAP COLORS*/
+
+.about-footer {
+  max-height: .5em;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+.nav-link {
+  color: #72C000;
+}
+
+.team-cards {
+  border: 1px solid #72C000;
+  border-radius: 1.5em;
+  max-height: 350px;
+  max-width: 560px;
+}
+
+.carousel-item {
+  /* text-shadow: 1px 1px white; */
+  text-shadow: white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px,
+           white 0px 0px 1px,   white 0px 0px 1px,   white 0px 0px 1px,
+           white 0px 0px 1px, white 0px 0px 1px, white 0px 0px 1px;
+}
+
+.card-footer {
+  border-top: 1px solid #72C000;
+}
+
+
+/* 
+font-family: 'Nosifer', cursive; // use for Toxic Shatter Title
+font-family: 'Barriecito', cursive;
+font-family: 'Barrio', cursive; // use this fony for navbar/footer/links
+font-family: 'Kirang Haerang', cursive; 
+*/
