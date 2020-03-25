@@ -1,0 +1,8 @@
+03/24/20
+
+-Local DB file added called "members.json"
+-Add data to DB file
+-Access data from DB file
+-Display data on Team.js dynamically using data
+
+-FIX WARNINGS FOR target="_blank"
