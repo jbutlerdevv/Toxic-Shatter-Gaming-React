@@ -44,51 +44,38 @@
     },
     {
         "id": 7,
-        "image": "./assets/imgs/TSG-members/nolb-logo.png",
-        "name": "Futless",
-        "desc": "Futless was the inspiration behind TSG as a whole, taught me (tsg_m4n1k67)everything I know about streaming. He enjoys playing games like COD: Warzone, The Division 2, and some other popular Battle Royales",
-        "link": "https://www.twitch.tv/futless"
-    },
-    {
-        "id": 8,
         "image": "./assets/imgs/TSG-members/runeworks-logo.png",
         "name": "Runeworks_Gaming",
         "desc": "Runeworks_Gaming is a variety streamer and loves playing much smaller titles as well as well-known titles like Borderlands 3, Dauntless, and the like.",
         "link": "https://www.twitch.tv/runeworks_gaming"
     },
     {
-        "id": 9,
+        "id": 8,
         "image": "./assets/imgs/TSG-members/silenthunt-logo.png",
         "name": "SilentHunt316",
         "desc": "SilentHunt316 enjoys playing a handful of games more in the FPS genre including COD: Modern Warfare, Realm Royale, Borderlands 3, Apex Legends, and the like",
         "link": "https://www.twitch.tv/silenthunt316"
     },
     {
-        "id": 10,
+        "id": 9,
         "image": "./assets/imgs/TSG-members/sirvegi-logo.png",
         "name": "SirVegi",
         "desc": "SirVegi has been a huge supporter of TSG, is a variety streamer and enjoys playing games like Borderlands 3, Hades, VRChat, Boneworks, and the list continues...",
         "link": "https://www.twitch.tv/sirvegi"
     },
     {
-        "id": 11,
+        "id": 10,
         "image": "./assets/imgs/TSG-members/thedonchuckyy-logo.png",
         "name": "TheDonChuckyy",
         "desc": "TheDonChuckyy is a huge supporter of TSG and has his own community called House Mafia. He enjoys playing many different games including Destiny 2, Madden NFL 20, Apex Legends, and more.",
         "link": "https://www.twitch.tv/thedonchuckyy"
     },
     {
-        "id": 12,
+        "id": 11,
         "image": "./assets/imgs/TSG-members/toasteythabrave-logo.png",
         "name": "ToastyThaBrave",
         "desc": "ToastyThaBrave is a variety streamer that likes to play a ton of different games including...Dead by Daylight , House Flipper, Spellbreaker, and many more.",
         "link": "https://www.twitch.tv/toastythabrave"
-    },
-    {
-        "id": 13,
-        "image": "./assets/imgs/TSG-members/viking.png",
-        "name": "Viking00034",
-        "desc": "Viking00034 loves gaming in general in all different kinds of genres including some titles like Dead by Daylight, COD Modern Warfare, Realm Royale, The Evil Within, Resident Evil, Overwatch, and many more",
-        "link": "https://www.twitch.tv/viking00034"
     }
+
 ]

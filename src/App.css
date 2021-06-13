@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: whitesmoke;
 }
 
 /*Text for main card header*/
@@ -16,6 +16,7 @@ body {
   /* border-top: solid 1px green; */
   margin-top: 3em;
   padding-top: 3em;
+  background-color: black;
 }
 
 .navbar {

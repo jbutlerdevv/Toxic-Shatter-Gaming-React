@@ -4,7 +4,7 @@ import data from '../data/members.json';
 const Team = () => {
 
     const memberData = data.map((member, index) => (
-        <div key={index} className="card m-3 p-3 bg-transparent text-light team-cards">
+        <div key={index} className="card m-3 p-3 bg-transparent text-light team-cards shadow">
             <div className="row">
                 <div className="col-md-4">
                     <img src={member.image} className="card-img" alt="..." />

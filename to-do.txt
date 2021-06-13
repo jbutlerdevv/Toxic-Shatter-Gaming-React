@@ -1,8 +1,12 @@
-03/24/20
+06/12/2021
 
--Local DB file added called "members.json"
--Add data to DB file
--Access data from DB file
--Display data on Team.js dynamically using data
+-Bootstrap 5 added
+
+-Adjust footer to stick to bottom of page, currently floating above bottom of page
+
+-Update to Bootstrap 5
+   -Bootstrap 5 breaks the alignment of the navbar items (already fixed footer by placing each item in it's own respective row)
+
+-Carousel now has text next to arrow to select previous or next. Update this to not show with Bootstrap 5
 
 -FIX WARNINGS FOR target="_blank"
