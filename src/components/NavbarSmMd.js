@@ -5,7 +5,7 @@ const NavbarSmMd = () => {
 
     return (
 
-        <div className="d-none d-lg-none d-xl-none d-xxl-none d-xs-block d-sm-block d-md-block">
+        <div className="d-none d-lg-none d-xl-none d-xxl-none d-xxs-block d-xs-block d-sm-block d-md-block">
         <nav className="navbar navbar-expand-xs navbar-dark sticky-top shadow-lg">
 
             <a className="navbar-brand" href="/">

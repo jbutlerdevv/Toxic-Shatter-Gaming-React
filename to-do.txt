@@ -1,5 +1,7 @@
 7/2/2021
 
+-Component NavbarSmMd disappears on devices smaller than xs (mobile devices) --- NEED FIX
+
 -Strange whitespace on right side of screen, need to fix
 
 -Adjust footer to stick to bottom of page, currently floating above bottom of page
@@ -11,7 +13,8 @@
 -FIX WARNINGS FOR target="_blank"
 
 <--------------------------------------------------------------------->
-!!!!----NOTES----!!!!
+<--------------------------------------------------------------------->
+!!!!NOTES!!!!
 
 -Bootstrap 5 added
 

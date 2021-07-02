@@ -39,7 +39,7 @@ body {
 }
 
 .nav-link:hover {
-  color: gray;
+  color: whitesmoke;
 }
 
 .nav-link {
@@ -68,6 +68,6 @@ body {
 /* 
 font-family: 'Nosifer', cursive; // use for Toxic Shatter Title
 font-family: 'Barriecito', cursive;
-font-family: 'Barrio', cursive; // use this fony for navbar/footer/links
+font-family: 'Barrio', cursive; // use this font for navbar/footer/links
 font-family: 'Kirang Haerang', cursive; 
 */

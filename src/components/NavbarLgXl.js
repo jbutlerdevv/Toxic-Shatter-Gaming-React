@@ -12,12 +12,7 @@ const NavbarLgXl = () => {
                     <img src="./assets/imgs/tsg-logo-5-12-19-no-TSG-header.png" width="50" height="50" alt="" />
                 </a>
 
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div className="">
 
                     <ul className="nav">
                         <li className="nav-item mx-5">                           
@@ -36,7 +31,8 @@ const NavbarLgXl = () => {
 
                 </div>
 
-                <form className="d-flex">
+                {/*/ ms-auto replaced ml-auto (margin-left) | me-auto replaced mr-auto (margin-right)  */}
+                <form className="d-flex ms-auto">
                     <input className="form-control input-group" type="search" placeholder="Search" aria-label="Search" />
                     <button className="btn btn-outline-success input-group-append" type="submit">Search</button>
                 </form>
