@@ -1,9 +1,4 @@
-06/12/2021
-
--Bootstrap 5 added
-
--Hamburger menu broken on Bootstrap 5 searchbar remains outside of hamburger menu
-   -look at behavior of nav-item placement when hamburger menu pops down
+7/2/2021
 
 -Strange whitespace on right side of screen, need to fix
 
@@ -14,3 +9,14 @@
 -Carousel now has text next to arrow to select previous or next. Update this to not show with Bootstrap 5
 
 -FIX WARNINGS FOR target="_blank"
+
+<--------------------------------------------------------------------->
+!!!!----NOTES----!!!!
+
+-Bootstrap 5 added
+
+----!!Successfully created alternate component (NavbarSmMd.js) for all devices smaller than large devices!!----
+-Currently have Navbar component disappear on anything smaller than large devices
+
+----!!Below possibly fixed by creating completely separate component for devices smaller than large!!
+   -Look at behavior of nav-item placement when hamburger menu pops down (NavbarSmMd.js)

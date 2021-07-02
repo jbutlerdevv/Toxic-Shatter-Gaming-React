@@ -1,16 +1,12 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
-const Navbar = () => {
+const NavbarLgXl = () => {
 
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-dark sticky-top shadow-lg">
+
+        <div className="d-none d-lg-block">
+            <nav className="navbar navbar-expand-md navbar-dark sticky-top shadow-lg">
 
                 <a className="navbar-brand" href="/">
                     <img src="./assets/imgs/tsg-logo-5-12-19-no-TSG-header.png" width="50" height="50" alt="" />
@@ -24,20 +20,16 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
 
                     <ul className="nav">
-                        <li className="nav-item mx-5">
-                            {/* <a href="./index.html" className="nav-link">Home</a> */}
+                        <li className="nav-item mx-5">                           
                             <Link to="/" className="nav-link">Home</Link>
                         </li>
                         <li className="nav-item mx-5">
-                            {/* <a href="/about" className="nav-link">About</a> */}
                             <Link to="/about" className="nav-link">About</Link>
                         </li>
                         <li className="nav-item mx-5">
-                            {/* <a href="/team" className="nav-link">Team</a> */}
                             <Link to="/team" className="nav-link">Team</Link>
                         </li>
                         <li className="nav-item mx-5">
-                            {/* <a href="/contact" className="nav-link">Contact Us</a> */}
                             <Link to="/contact" className="nav-link">Contact Us</Link>
                         </li>
                     </ul>
@@ -48,18 +40,14 @@ const Navbar = () => {
                     <input className="form-control input-group" type="search" placeholder="Search" aria-label="Search" />
                     <button className="btn btn-outline-success input-group-append" type="submit">Search</button>
                 </form>
-
-                    {/* <div class="input-group w-25">
-                        <input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon2" />
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-success" type="button">Button</button>
-                        </div>
-                    </div> */}
                     
             </nav>
         </div>
+
+        
+
     )
 
 }
 
-export default Navbar;
+export default NavbarLgXl;
