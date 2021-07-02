@@ -8,6 +8,7 @@ import {
 
 const Footer = () => {
     return (
+
         <div>
             <footer className="footer text-center w-100 mt-5 shadow">
                 <ul className="nav row justify-content-around footer-links">
@@ -38,6 +39,7 @@ const Footer = () => {
                 </div>
             </footer>
         </div>
+        
     )
 }
 
