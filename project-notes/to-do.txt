@@ -1,0 +1,19 @@
+7/4/2021
+
+---WORKING ON---
+   -Currently working on making the searchbar not span the width of the entire navbar on medium devices
+      -Make another searchbar in the SearchBar component specifically for medium devices?
+----------------
+
+-NEEDS FIX
+   -Navbar responsiveness smaller than large devices
+   -Navbar responsiveness @ large devices - the last links stacks under the content on it's own row pushing down the navbar
+
+-NEEDS FIX
+   -Adjust footer to stick to bottom of page, currently floating above bottom of page
+
+-NEEDS FIX
+   -Carousel now has text next to arrow to select previous or next. Update this to not show with Bootstrap 5
+
+-NEEDS FIX
+   -WARNINGS in terminal relating to target="_blank" in links

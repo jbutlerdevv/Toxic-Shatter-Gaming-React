@@ -21,6 +21,7 @@ body {
 
 .navbar {
   background-color: black;
+  padding-left: 7px;
 }
 
 /*OVERRIDE BOOTSTRAP COLORS*/

@@ -1,6 +1,5 @@
 import React from 'react';
-import NavbarLgXl from './components/NavbarLgXl';
-import NavbarSmMd from './components/NavbarSmMd';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import About from './components/About';
@@ -19,8 +18,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <NavbarLgXl />
-        <NavbarSmMd />
+        <Navbar />
 
         <Switch>
           <Route exact path="/">
@@ -38,8 +36,6 @@ function App() {
         </Switch>
 
         <Footer />
-
-
 
       </div>
     </Router>
