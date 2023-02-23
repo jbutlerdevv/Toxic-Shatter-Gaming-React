@@ -30,7 +30,7 @@ const Footer = () => {
                     <li className='nav-item col-3'>
                         {/* <a href="#" className="nav-link">Contact Us</a> */}
                         <Link to='/contact' className='nav-link'>
-                            Contact Us
+                            Contact
                         </Link>
                     </li>
                 </ul>
