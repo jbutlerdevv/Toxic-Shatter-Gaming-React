@@ -5,6 +5,7 @@ import SearchBar from "./SearchBar";
 const Navbar = () => {
     return (
         <div>
+            <Router />
             {/* LARGE & LARGER DEVICES */}
             <div className='d-none d-lg-block'>
                 <nav className='navbar navbar-expand-md navbar-dark sticky-top shadow-lg'>
